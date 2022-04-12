@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  background-color: #000407;
+  color: #32B9CD;
+  border-bottom: 5px solid #32B9CD;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+ display: flex;
+ list-style: none;
+ width: 400px;
+ justify-content: space-between; 
+ align-items: center;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #e3b062; 
+}
+
+.agora{
+    font-weight: bold;
+}
+
+.baner{
+    background-image: url('aquatec01.png');
+    background-size: cover;
+}
+
+.baner .container{
+    height: 558px;
+    display: flex;
+    color: white;
+    align-items: center;
+
+}
+
+.baner .login{
+    justify-content: center;
+}
+
+.baner .cadastro{
+  justify-content: center;
+}
+
+.baner p{
+    font-size: 36px;
+    width: 280px;
+    margin-left: 20%;
+}
+
+.footer{
+    background-color: #32B9CD;
+    color: white;
+}
+
+.footer .container{
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  background-color: #e5e5e5;  
+  color: #E6005A;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro .card{
+  height: 400px;
+}
+
+.card h2{
+    margin: 0;
+    
+}
+
+form{
+  display: flex;
+  flex-direction: column; 
+  margin-top: 24px;
+  width: 250px;
+}
+
+form label{
+    margin-top: 8px;
+}
+
+form input{
+    margin-top: 8px;
+    border: 0;
+    outline: 3px solid #32B9CD;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+ form button{
+    margin-top: 16px;
+    background-color: #E6005A;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
